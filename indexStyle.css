@@ -1,7 +1,7 @@
-.wallpaper{
+.container{
     width: 100vw;
     height: 100vh; 
-    z-index: 1;
+    background-image: url("./assets/siteWallpaper.jpg")
 }
 .profilePic{
     height: 200px;
