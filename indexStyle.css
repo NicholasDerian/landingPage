@@ -26,15 +26,27 @@ div .title5 {
 .heroTitle {
   font-family: alba;
   color: black;
-  font-size: 100px;
+  font-size: 200px;
   transition: transform 500ms ease-in-out 25ms;
   position: absolute;
-  top: 500px;
-  left: 500px;
+  top: 100px;
+  left: 250px;
 }
 
-.heroTitle:hover {
+.heroTitleContainer:hover > .title1 {
   transform: translateX(-10px) translateY(-10px);
+}
+
+.heroTitleContainer:hover > .title2 {
+  transform: translateX(-5px) translateY(-5px);
+}
+
+.heroTitleContainer:hover > .title4 {
+  transform: translateX(5px) translateY(5px);
+}
+
+.heroTitleContainer:hover > .title5 {
+  transform: translateX(10px) translateY(10px);
 }
 
 .container {
